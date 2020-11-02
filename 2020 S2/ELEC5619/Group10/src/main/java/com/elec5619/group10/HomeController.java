@@ -36,4 +36,20 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String login(Locale locale, Model model) {
+		logger.info("Now in log in page");
+		
+		
+		return "login";
+	}
+	
+	@RequestMapping(value = "/score", method = RequestMethod.GET)
+	public String page(Locale locale, Model model) {
+		logger.info("Now in score page");
+		
+		
+		return "score";
+	}
+	
 }
