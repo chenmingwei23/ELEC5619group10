@@ -3,7 +3,7 @@
 **[Bootstrap 4](https://github.com/twbs/bootstrap)**  ─ the world’s most popular framework for building responsive, mobile-first sites and applications.
 
 ## Installation
-In order to use theme features you have to install npm packages by using [yarn](https://yarnpkg.com). After you installed packages with yarn just run the following command to start a new dev environment.
+In order to start the server for our project, you have to install  by using [yarn](https://yarnpkg.com). After you installed packages with yarn just run the following command to start a new dev environment.
 ```
 yarn watch
 ```
